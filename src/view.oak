@@ -184,10 +184,9 @@ fn page(body, title, searchQuery) '<!doctype html>
 		_ -> title + ' | the stream'
 	}
 	if title {
-		? -> '<h1>Linus\'s stream</h1>'
+		? -> '<h1>Bruno\'s stream</h1>'
 		'' -> ''
 		_ -> '<h1>' << title << '</h1>'
 	}
 	body
 )
-
